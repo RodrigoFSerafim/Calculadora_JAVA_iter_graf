@@ -5,6 +5,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Calculadora_GUI extends JFrame {
+    public static int Primeironumero = 0;
+    public static int Segundonumero = 0;
     private JTextField tfPrimeiroNumero;
     private JTextField tfSegundoNumero;
     private JButton btnSomar;
@@ -24,38 +26,42 @@ public class Calculadora_GUI extends JFrame {
         setTitle("TOP 10 melhores Calculadoras");
         setSize(450, 300);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        setLocationRelativeTo(null);
         setVisible(true);
+
+
 
 
         btnSomar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int Primeironumero = Integer.parseInt(tfPrimeiroNumero.getText());
-                int Segundonumero = Integer.parseInt(tfSegundoNumero.getText());
+                Primeironumero = Integer.parseInt(tfPrimeiroNumero.getText());
+                Segundonumero = Integer.parseInt(tfSegundoNumero.getText());
                 lbResultado.setText("Seu resultado é : "+ (Primeironumero+Segundonumero));
             }
         });
         btnSubtra.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int Primeironumero = Integer.parseInt(tfPrimeiroNumero.getText());
-                int Segundonumero = Integer.parseInt(tfSegundoNumero.getText());
+                Primeironumero = Integer.parseInt(tfPrimeiroNumero.getText());
+                Segundonumero = Integer.parseInt(tfSegundoNumero.getText());
                 lbResultado.setText("Seu resultado é : "+ (Primeironumero-Segundonumero));
             }
         });
         btnVezes.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int Primeironumero = Integer.parseInt(tfPrimeiroNumero.getText());
-                int Segundonumero = Integer.parseInt(tfSegundoNumero.getText());
+                Primeironumero = Integer.parseInt(tfPrimeiroNumero.getText());
+                Segundonumero = Integer.parseInt(tfSegundoNumero.getText());
                 lbResultado.setText("Seu resultado é : "+ (Primeironumero*Segundonumero));
             }
         });
         btnDivisao.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int Primeironumero = Integer.parseInt(tfPrimeiroNumero.getText());
-                int Segundonumero = Integer.parseInt(tfSegundoNumero.getText());
+                Primeironumero = Integer.parseInt(tfPrimeiroNumero.getText());
+                Segundonumero = Integer.parseInt(tfSegundoNumero.getText());
                 lbResultado.setText("Seu resultado é : "+ (Primeironumero/Segundonumero));
             }
         });

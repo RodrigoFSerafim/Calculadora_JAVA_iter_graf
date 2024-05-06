@@ -10,7 +10,9 @@
     <children>
       <component id="9a375" class="javax.swing.JLabel" binding="Label1">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="16"/>
+          </grid>
         </constraints>
         <properties>
           <text value="Primeiro Número"/>
@@ -26,7 +28,9 @@
       </component>
       <component id="f306f" class="javax.swing.JLabel" binding="Label2">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="16"/>
+          </grid>
         </constraints>
         <properties>
           <text value="Segundo Número"/>
@@ -44,7 +48,9 @@
       </component>
       <component id="6ebc6" class="javax.swing.JLabel" binding="lbResultado">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="16"/>
+          </grid>
         </constraints>
         <properties>
           <text value="Seu resultado é : "/>
@@ -52,18 +58,12 @@
       </component>
       <component id="2b8b9" class="javax.swing.JButton" binding="btnSomar">
         <constraints>
-          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <text value="+"/>
-        </properties>
-      </component>
-      <component id="7da1" class="javax.swing.JButton" binding="btnSubtra">
-        <constraints>
-          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="-"/>
         </properties>
       </component>
       <component id="7324c" class="javax.swing.JButton" binding="btnVezes">
@@ -84,7 +84,9 @@
       </component>
       <component id="f3684" class="javax.swing.JButton" binding="btnLimpar">
         <constraints>
-          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <text value="Limpar"/>
@@ -96,6 +98,14 @@
         </constraints>
         <properties>
           <text value="Sair"/>
+        </properties>
+      </component>
+      <component id="7da1" class="javax.swing.JButton" binding="btnSubtra">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="-"/>
         </properties>
       </component>
     </children>
